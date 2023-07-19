@@ -135,14 +135,14 @@
                 <h1 class="text-white fs-3 fw-bolder"><%=targetYear%>년<%=targetMonth+1%>월</h1>
                 <p class="text-white-50 mb-0">
               			<a href = "./scheduleList.jsp?targetYear=<%=targetYear%>&targetMonth=<%=targetMonth-1%>" class="btn btn-dark">이전달</a>
-						<a href = "./scheduleList.jsp?targetYear=<%=targetYear%>&targetMonth=<%=targetMonth+1%>" class="btn btn-dark">이전달</a>
+						<a href = "./scheduleList.jsp?targetYear=<%=targetYear%>&targetMonth=<%=targetMonth+1%>" class="btn btn-dark">다음달</a>
 				</p>
             </div>
         </header>
         <!-- Content section-->
        
-                     <table class="table">
-							<thead>
+                     <table class="table" style="margin-bottom: 0;">
+								<thead>
 									<tr class="table-dark">
 										<th>일</th>
 										<th>월</th>
