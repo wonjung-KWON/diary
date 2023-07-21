@@ -52,7 +52,7 @@
 <html lang="en">
     <head>
     <style type="text/css">
-		.glanlink {color: #000000;}
+		.glanlink {color: #000000;text-decoration: none;}
 	</style>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
